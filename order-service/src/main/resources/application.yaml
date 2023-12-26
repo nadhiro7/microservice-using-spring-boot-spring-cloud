@@ -1,0 +1,21 @@
+server:
+  port: 9092
+spring:
+  zipkin:
+    base-url: http://loacalhost:9411/
+  h2:
+    console:
+      enabled: true
+  application:
+    name: ORDER-SERVICE
+  cloud:
+    config:
+      enabled: false
+
+
+
+
+
+logging:
+  file:
+    name: C:\Users\TRETEC\IdeaProjects\logs\microservice.log
